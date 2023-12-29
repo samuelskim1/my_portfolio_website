@@ -94,10 +94,8 @@
             <img src="assets/img/profile-img1.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Software Engineer.</h3>
+            <h3>Software Engineer</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
             </p>
             <div class="row">
               <div class="col-lg-6">
@@ -117,7 +115,7 @@
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>917-864-9696</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>samsjkim1@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bronx, USA</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bronx, NY</span></li>
                 </ul>
               </div>
             </div>
@@ -203,51 +201,88 @@
 
         <div class="section-title">
           <h2>Resume</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Sumary</h3>
-            <div class="resume-item pb-0">
-              <h4>Alex Smith</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+            <h3 class="resume-title">Projects</h3>
+            <div class="resume-item">
+              <h4>Moodify</h4>
+              <p><em>A Full Stack clone of the popular music streaming service Spotify using: React / Redux, Ruby on Rails, JavaScript, AWS, HTML5, and CSS3</em></p>
               <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
+                <li>Integrated React Player with Redux’s global store and enabled the playbar to detect whether the audio file was part of
+                an album or a playlist. If the current track is part of either, the track would loop properly whenever the end of the
+                album/playlist is met</li>
+                <li>Implemented efficient/faster postgreSQL queries through properly formatting backend data with Jbuilder which allowed for
+                improved time complexity</li>
+                <li>Displayed different tracks and albums on my home page on every render utilizing custom Rails backend routes provide a
+                unique user experience every time they visit the home page</li>
+                <li>Utilized AWS S3 to attach images and audio file urls for songs, tracks, albums, and profiles to my rails backend using
+                ruby’s URI module which allows for scalability of the application and reduced server load.</li>
               </ul>
             </div>
-
-            <h3 class="resume-title">Education</h3>
             <div class="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+              <h4>5tack</h4>
+              <p><em>A forum built off of the MERN Stack to allow gamers to connect and network using: MongoDB, Mongoose, Express, React / Redux, Node, AWS, HTML5, CSS3, SCSS</em></p>
+              <ul>
+                <li>Managed a team of 3 software engineers, utilizing efficient git and pull request workflows in order to minimize merge
+                conflicts between the backend and the frontend.</li>
+                <li>Integrated Mongoose’s ability to provide more flexibility with validations and error handling at the application layer
+                as well as efficient drawing data from multiple collections at the same time using Mongoose’s populate method.</li>
+                <li>Utilized SCSS ability of utilizing variables to implement a dynamic navigation bar to display every category and every
+                game associated with each category, allowing for a smooth and interactive user experience</li>
+              </ul>
             </div>
             <div class="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+              <h4>Spotify Moods</h4>
+              <p><em>A data visualization of raw audio data that Spotify collects for each of its tracks using: JavaScript, D3.js, Crypto.js</em></p>
+              <ul>
+                <li>Utilized the D3 library in order to built an app that dynamically renders raw audio data from any Spotify track</li>
+                <li>Leveraged Crypto.js in order to generate secure tokens to bypass Spotify’s OAuth, enabling me to utilize their API to
+                withdraw raw audio data</li>
+                <li>Implemented an accordion through DOM manipulation with vanilla javascript and CSS with descriptions of different audio
+                features in order to provide context to users</li>
+              </ul>
             </div>
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
+              <h4>Psychology/Integrative Neuroscience Peer Advisor</h4>
+              <h5>February 2021-May 2022</h5>
+              <p><em>Psychology/Integrative Neuroscience Academic Advising at Binghamton University, NY</em></p>
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                <li>Provided guidance on major requirements, academic/career planning, course information, and coursework transfers to
+                students.</li>
+                <li>Clarified DegreeWorks audits to help students understand the credits and courses needed for their major and graduation
+                requirements.</li>
+                <li>Guided students to internship/research opportunities and campus resources.</li>
+                <li>Documented appointment notes for students' future reference.</li>
               </ul>
             </div>
             <div class="resume-item">
+              <h4>Physical Therapy Aide</h4>
+              <h5>June 2018 - January 2020</h5>
+              <p><em>Bell Physical Therapy at Bayside, NY</em></p>
+              <ul>
+                <li>Managed patients’ electronic health records (EHR), including creating records for new patients, updating records after
+                appointments, and reviewing treatment plans against the diagnosis. Assisted with transcribing paper health records to
+                electronic health records in Office Ally (EHR software).</li>
+                <li>Assisted patients and the physical therapist with insurance claims, including submitting insurance codes for treatments,
+                analyzing explanation of benefits (EOB) documents from insurers, and resolving discrepancies between EOB and EHR
+                documents.</li>
               </ul>
+            </div>
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Software Engineering Certificate</h4>
+              <h5>2023</h5>
+              <p><em>App Academy, New York, NY</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>Bachelor of Science in Integrative Neuroscience</h4>
+              <h5>2019-2022</h5>
+              <p><em>Binghamton University, State University of New York, Harpur College of Arts and Science</em></p>
             </div>
           </div>
         </div>
