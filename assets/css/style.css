@@ -1041,6 +1041,18 @@ section {
   background: #37b3ed;
 }
 
+.contact-social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contact-social-links a{
+  font-size: 30px;
+  margin-top: 20px;
+}
+
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
