@@ -1050,8 +1050,10 @@ section {
 
 .contact-social-links a{
   font-size: 30px;
-  margin-top: 20px;
+  margin: 20px;
 }
+
+
 
 @keyframes animate-loading {
   0% {
